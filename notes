@@ -1,12 +1,23 @@
-Notes
+******* Notes 
 
-Total number reviews: 82, 456, 877
-Number of asins on Labdoor: 789
-Prop of ASINs in Amazon reviews on Labdoor: 538/789 (68%) 
-Prop of ASINs in bestsellers list with reviews: 
+******* Overview: 
+Total number reviews: 82,456,877
+Number of ASINs on Labdoor: 789
+Number of ASINs on Labour with Amazon reviews: 538/789 (68%) 
+Number of ASINs in bestsellers list with Amazon reviews: 
 
+******* Products in-scope: 
+Include: Single component vitamins, minerals, supplements
+Exclude: multivitamins, complexes, weight loss/pre-workout blends, protein
 
-Products in scope:
-Products in Vitamins and Dietary Supplements category bestsellers list (excl. Weight loss) 
-Left join Labdoor product reviews (excl. Pre-workout, excl. foodstuff?)
+******* How to identify? 
+Filter 'categories' in metadata for matches on following hardcoded terms: 
+patterns = ['vitamin', 'supplement', 'mineral', 'complex',\
+            'iron', 'calcium', 'omega', 'herb', 'creatine',\
+            'enzyme', 'spiru', 'carnit', 'green', 'curc',\
+            'turme', 'fish oil', 'ashw'] 
+Next stage: match all terms on examine.com site (need to extract this)
+
+All matches coming from Health_and_Personal_Care reviews; no matches from Grocery_and_Gourmet_Food. (Note: 'protein drinks' are listed under latter, but we are excluding this from scope.) 
+
 
