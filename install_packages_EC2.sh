@@ -3,3 +3,4 @@ python -m spacy download 'en'
 pip install gensim
 pip install jupyterlab
 pip install s3fs
+pip install pyLDAvis
