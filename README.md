@@ -9,7 +9,7 @@ https://ieeexplore.ieee.org/document/8651723
 - **Motivation: Equip health supplement shoppers with information to help them easily make informed purchases**
 
 ## Our Data Product - ShopSmart.ml
-- A webapp that displays scores for 3 categories for each product.  Categories are ‘Efficacy’, ‘Cost’, ‘Service’. Score represent the extent to which the topics were discussed in the product’s reviews.
+- A webapp that displays topic scores for 3 categories for each product.  Categories are ‘Efficacy’, ‘Cost’, ‘Service’. Scores represent the extent to which the topics were discussed in the product’s reviews.
 - Scores calculated by a rules-based model using counts of occurrences of category-specific words in reviews.
 - The category-specific words that the rules-based model looks for were found using word similarity on a custom-trained word2vec model.
 - Additional aspects of the product naturally emerging from reviews – e.g. taste or texture – were found using topic modeling and reported on the website.
