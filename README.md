@@ -3,10 +3,10 @@ Paper presented at IEEE Consumer Communications and Networking Conference:
 https://ieeexplore.ieee.org/document/8651723
 
 ## Background
--	As a part of my Master's degree in Data Science at USF, we were required to complete a 7-week-long project demonstrating a solution to a problem leveraging data and make a viable product out of it.
+-	As a part of my Master's degree in Data Science at USF, we were required to complete a 7-week-long project demonstrating a solution to a problem leveraging data and to make a viable product out of it.
 -	We focused on health supplement buyers on Amazon.  These buyers face an overwhelming amount of options.
--	It can be hard to distinguish between highly rated products – once can spend hours reading through several reviews or risk making a less-than-optimal purchase that could impact your health in an unexpected way.
-- **Motivation: Equip shoppers with information to help make informed purchases**
+-	It can be hard to distinguish between highly rated health supplements – one must spend hours reading through several reviews or risk making a less-than-optimal purchase that could impact your health in an unexpected way.
+- **Motivation: Equip health supplement shoppers with information to help them easily make informed purchases**
 
 ## Our Data Product - ShopSmart.ml
 - A webapp that displays scores for 3 categories for each product.  Categories are ‘Efficacy’, ‘Cost’, ‘Service’. Score represent the extent to which the topics were discussed in the product’s reviews.
